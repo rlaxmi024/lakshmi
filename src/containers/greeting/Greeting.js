@@ -52,6 +52,7 @@ export default function Greeting() {
               <img
                 alt="man sitting on table"
                 src={require("../../assets/images/image_3.png")}
+                style={{ float:`right` }}
               ></img>
           </div>
         </div>
