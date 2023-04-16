@@ -78,14 +78,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Purdue Univesity",
+      schoolName: "Purdue University",
       logo: require("./assets/images/purdue.png"),
       subHeader: "Master of Science in Computer Engineering",
       duration: "August 2021 - August 2023",
       desc: "Participated in the research of Machine Learning and Computer Vision and worked towards publishing 2 papers.",
       descBullets: [
         "Coursework: Algorithms, Artificial Intelligence, Neural Networks, Social Networks with ML",
-        "Awarded USD 15,500 scholarship (top 2% among 8000 students",
+        "Awarded USD 15,500 scholarship (top 2% among 8000 students)",
         "Held one Research Assistantship and 2 Teaching Assistantship positions in Machine Learning"
       ]
     },
