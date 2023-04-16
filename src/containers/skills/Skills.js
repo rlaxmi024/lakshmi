@@ -22,7 +22,7 @@ export default function Skills() {
           </div>
         </Fade>
         <Fade right duration={1000}>
-          <div className="skills-text-div" style={{marginLeft: '-50px'}}>
+          <div className="skills-text-div" style={{marginLeft: '0px'}}>
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
               
