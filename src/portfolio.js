@@ -53,13 +53,22 @@ const skillsSection = {
     " optimization algorithms, domain generalization techniques, and attention mechanisms.",
     " I am proficient in both PyTorch and TensorFlow and can quickly adapt to new development environments as needed.",
     " I have successfully implemented various ML projects, ranging from image classification and natural language processing to time series forecasting and reinforcement learning.",
-    " I am also comfortable working with large datasets and using data processing and augmentation techniques to improve model performance."
+    " I am also comfortable working with large datasets and distributed systems."
   ],
 
   skills: [
-    emoji("⚡ Programming Languages: Python, C/C++, Embedded C, MATLAB, Bash, Shell, Java, HTML, Javascript" ),
-    emoji("⚡ Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, SciPy, NLTK, OpenCV, Flask, Hugging Face"),
-    emoji("⚡ Tools and Frameworks: PyTorch, TensorFlow, Keras, MONAI, Git, GitHub, Jira, Docker, Tensorboard, GCP")
+    emoji("⚡ Languages: Python, C/C++, Embedded C, MATLAB, Bash, Shell, Java, HTML, Javascript" ),
+    emoji("⚡ Libraries: NumPy, Pandas, Matplotlib, Scikit-learn, SciPy, NLTK, OpenCV, Flask, Hugging Face"),
+    emoji("⚡ Tools: PyTorch, TensorFlow, Keras, MONAI, Git, GitHub, Jira, Docker, Tensorboard, GCP")
+  ],
+
+  Hobbiestitle : "Hobbies 💃",
+
+  HobbiessubTitle: [
+    " I enjoy exploring new places and cultures through travel 🌎, and find fulfillment in intellectual hobbies like cubing and coding. ",
+    " Cooking 🍜 is an avenue through which I can express my creativity and experiment with flavors, while singing 🎤 is a means of self-expression",
+    " and connection with others through the beauty of music. I also find joy in playing badminton 🏸 and going on scenic drives 🚙,", 
+    " as they offer me a chance to unwind and maintain balace in my life."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -85,7 +94,7 @@ const educationInfo = {
       desc: "Participated in the research of Machine Learning and Computer Vision and worked towards publishing 2 papers.",
       descBullets: [
         "Coursework: Algorithms, Artificial Intelligence, Neural Networks, Social Networks with ML",
-        "Awarded USD 15,500 scholarship (top 2% among 8000 students)",
+        "Awarded USD 15,500 scholarship (top 2% among 8000 students",
         "Held one Research Assistantship and 2 Teaching Assistantship positions in Machine Learning"
       ]
     },
