@@ -22,9 +22,10 @@ export default function Skills() {
           </div>
         </Fade>
         <Fade right duration={1000}>
-          <div className="skills-text-div">
+          <div className="skills-text-div" style={{marginLeft: '-50px'}}>
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
+              
             >
               {skillsSection.title}{" "}
             </h1>
@@ -43,7 +44,7 @@ export default function Skills() {
               {skillsSection.skilltitle}{" "}
             </h4>
             <SoftwareSkill />
-            <div>
+            <div style={{marginTop: '-20px'}}>
               {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
@@ -59,6 +60,27 @@ export default function Skills() {
                 );
               })}
             </div>
+            
+
+          <div className="skills-text-div" style={{marginLeft: '0px', marginTop: '35px'}}>
+            <h4
+              className={isDark ? "dark-mode skills-heading" : "skills-heading"}style={{ fontSize: "30px"}}
+            >
+              {skillsSection.Hobbiestitle}{" "}
+            </h4>
+            <p
+              className={
+                isDark
+                  ? "dark-mode subTitle skills-text-subtitle"
+                  : "subTitle skills-text-subtitle"
+              }style={{ textAlign: "justify" , marginTop: '-20px'}}
+            >
+              {skillsSection.HobbiessubTitle}
+            </p>
+          </div>
+
+
+
           </div>
         </Fade>
       </div>
