@@ -89,24 +89,25 @@ const educationInfo = {
     {
       schoolName: "Purdue University",
       logo: require("./assets/images/purdue.png"),
-      subHeader: "Master of Science in Computer Engineering",
+      subHeader: "Master of Science (Thesis) in Computer Engineering (GPA: 3.72 / 4.0)",
       duration: "August 2021 - August 2023",
       desc: "Participated in the research of Machine Learning and Computer Vision and worked towards publishing 2 papers.",
       descBullets: [
-        "Coursework: Algorithms, Artificial Intelligence, Neural Networks, Social Networks with ML",
-        "Awarded USD 15,500 scholarship (top 2% among 8000 students",
-        "Held one Research Assistantship and 2 Teaching Assistantship positions in Machine Learning"
+        "Relevant Coursework: ECE_57000: Artificial Intelligence, ECE_62900: Neural Networks, ECE_59500: Social Networks with ML, ECE_602: Lumped System Theory, ECE_60800: Computational Models and Methods, ECE_53801: Discrete Event Dynamic Systems",
+        "Awarded USD 15,500 scholarship (top 2% among 8000 students)",
+        "Held one Research Assistantship and 3 Teaching Assistantship positions in Machine Learning"
       ]
     },
     {
       schoolName: "Pune University",
       logo: require("./assets/images/sppu.png"),
-      subHeader: "Bachelor of Technology in Electronics and Telecommunication",
+      subHeader: "Bachelor of Technology in Electronics and Telecommunication (GPA: 8.8/10)",
       duration: "Aug 2016 - May 2020",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Conducted research in Robotics Lab and with Automotive Research Assiciation of India (ARAI)",
       descBullets: [
-        "Bachelor of Technology, Electronics and Telecommunication with a GPA: 8.8/10 ",
-        "Coursework: Artificial Intelligence, Image Processing, Machine Learning"
+        "Ranked in top 5 in the program.",
+        "Coursework: EnTC_404185D: Artificial Intelligence, EnTC_404185D: Image & Video Processing, EnTC_404191A: Machine Learning",
+        "Conducted a research with ARAI to develop a novel OCPP protocol to establish communication link between charge point and server for secure charging of EVs"
       ]
     }
   ]
@@ -151,6 +152,24 @@ const workExperiences = {
         "Devised shifted-window cross-attention in PyTorch to attain a 91% dice score for a transformer model"
       ]
     },
+    
+    {
+      role: "Graduate Teaching Assistant",
+      company: "Purdue University",
+      companylogo: require("./assets/images/purdue.png"),
+      date: "Sep 2021 – Present",
+      desc: [
+        "ECE_66200: Pattern Recognition And Decision Making ",
+        "ECE_62900: Neural Networks and Machine Learning ",
+        "ECE_20400: Introduction to Electrical Circuits ",
+    ],
+      descBullets: [
+        " Conducted weekly lectures, project presentations and exams ",
+        " Assisted the instructor in grading weekly assignments, projects and quizzes",
+        " Conducted regular office hour to help students resolve their qeuries"
+      ]
+    },
+
     {
       role: "Software Developer Intern",
       company: "Cummins Inc.",
@@ -246,7 +265,37 @@ const achievementSection = {
           name: "GitHub", 
           url: "https://github.com/rlaxmi024/audio-visual-navigation"},
       ]
-    }
+    },
+    
+
+    {
+      title: "Video Sign Language Recognition",
+      subtitle: "Implemented a spatio-temporal graph convolution network that classifies the sign language from a video using 3D landmarks",
+      image: require("./assets/images/islr_latest.png"),
+      footerLink: []
+    },
+
+    {
+      title: "Temporally Consistent Video Depth Estimation",
+      subtitle: "Developed a training framework to enforce temporal consistency in pre-trained depth estimation models",
+      image: require("./assets/images/depth_estimation.png"),
+      footerLink: []
+    },
+
+
+    {
+      title: "Trigonometric Polynomial Equation Solver",
+      subtitle: "Designed a multi-task leanrning model to regress and classify each trigonometric term",
+      image: require("./assets/images/trig_eq.png"),
+      footerLink: []
+    },
+
+    {
+      title: "Poppy Humanoid robot",
+      subtitle: "Developed a script to control the motion of a humanoid robot via 25 dynamixel motors",
+      image: require("./assets/images/poppy.png"),
+      footerLink: []
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
