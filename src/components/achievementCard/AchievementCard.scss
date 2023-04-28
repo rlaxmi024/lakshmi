@@ -46,7 +46,7 @@
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
 }
 .certificate-card-footer {
@@ -74,4 +74,10 @@
 }
 span.certificate-tag:hover {
   background: $buttonHover;
+}
+
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
 }
