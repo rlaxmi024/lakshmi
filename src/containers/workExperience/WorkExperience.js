@@ -10,7 +10,6 @@ export default function WorkExperience() {
   if (workExperiences.display) {
     return (
       <div id="experience">
-        <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">{workExperiences.title}{" "}</h1>
@@ -34,7 +33,6 @@ export default function WorkExperience() {
               </div>
             </div>
           </div>
-        </Fade>
       </div>
     );
   }
